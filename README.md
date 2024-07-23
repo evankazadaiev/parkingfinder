@@ -6,10 +6,12 @@ This is the main project repository which includes submodules for the client and
 
 ### Cloning the Repository
 
-To clone this repository with its submodules, use the following command:
+To clone this repository with its submodules and to ensure, that they are on the main branch, use the following commands:
 
 ```bash
 git clone --recurse-submodules https://github.com/evankazadaiev/parkingfinder.git
+cd parkingfinder
+git submodule foreach 'git checkout main && git pull origin main'
 ```
 ### Installing dependencies
 
