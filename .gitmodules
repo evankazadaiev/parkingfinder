@@ -1,0 +1,6 @@
+[submodule "parkingfinder-client"]
+	path = parkingfinder-client
+	url = https://github.com/evankazadaiev/parkingfinder-client.git
+[submodule "parkingfinder-server"]
+	path = parkingfinder-server
+	url = https://github.com/evankazadaiev/parkingfinder-server.git
